@@ -18,6 +18,10 @@
             const row1col2= row1.insertCell();
             row1col2.innerHTML = "FirstName";
 
+            const row2 = studentRecord.insertRow();
+            const row2col1= row2.insertCell();
+            const row2col2= row2.insertCell();
+
             console.log(studentRecord);
         </script>
         </form>
