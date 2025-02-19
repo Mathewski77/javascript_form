@@ -22,6 +22,12 @@
             const row2col1= row2.insertCell();
             const row2col2= row2.insertCell();
 
+            const inputLastName = document.createElement("Input");
+            inputLastName.type = "text";
+            inputLastName.placeholder = "Enter Last name";
+
+            row2col1.append(inputLastName);
+
             console.log(studentRecord);
         </script>
         </form>
