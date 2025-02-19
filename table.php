@@ -10,6 +10,7 @@
             const studentRecord = document.getElementById
             ("student_record");
             console.log("Hello World");
+            const row1 = studentRecord.insertRow();
             console.log(studentRecord);
         </script>
         </form>
