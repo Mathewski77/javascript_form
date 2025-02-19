@@ -11,6 +11,8 @@
             ("student_record");
             console.log("Hello World");
             const row1 = studentRecord.insertRow();
+            const row1col1= row1.insertCell();
+            row1col1.innerHTML = "LastName";
             console.log(studentRecord);
         </script>
         </form>
