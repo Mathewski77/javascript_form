@@ -26,7 +26,17 @@
             inputLastName.type = "text";
             inputLastName.placeholder = "Enter Last name";
 
+            const inputFirstName = document.createElement("Input");
+            inputFirstName.type = "text";
+            inputFirstName.placeholder = "Enter First name";
+
+
             row2col1.append(inputLastName);
+            row2col2.append(inputFirstName);
+
+            const studentRecord = document.getElementById("myTd").colSpan = "1";
+
+
 
             console.log(studentRecord);
         </script>
