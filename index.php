@@ -4,7 +4,7 @@
     </head>
 
     <body>
-        <form action="/action_page.php">
+        <form action="/action_page.php" method="GET">
             <fieldset>
                 <legend style="float:right">Personalia:</legend>
                 <label for="fname">First name:</label>
